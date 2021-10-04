@@ -70,24 +70,40 @@ img{
 
   .row{
     width: 100%;
+    margin-top: 0;
+    padding-top: 10px;
   }
 
-  #lezioni .row{
+  /* lezioni */
+  #lezioni .row,
+  #why .row{
     background-color: #F2F2CD;
-    margin-top: 0;
   }
-  #lezioni .row{
+  #lezioni .row,
+  #steps .row,
+  #why .row{
     font-size: 2.8vw;
   }
   #lezioni .row > .left, 
-  #lezioni .row > .right{
+  #lezioni .row > .right,
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right,
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
     float: none;
     width: 95%;
     margin: 0 auto;
     padding: 10px 0;
   }
-  #lezioni .row img{
-    width: 20%;
-    height: 20%;
+  #lezioni .row img,
+  #steps .row img,
+  #why .row img{ 
+    width: 27%;
+    height: 27%;
   }
+
+  /* steps  */
+ 
 }
